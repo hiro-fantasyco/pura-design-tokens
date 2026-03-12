@@ -77,7 +77,11 @@
   },
   "Light.surface.negative.tertiary": {
     "$type": "color",
-    "$value": "{color.primitive.rose.clay.200}"
+    "$value": "{color.primitive.rose.clay.400}"
+  },
+  "Light.surface.overlay.default": {
+    "$type": "color",
+    "$value": "{color.primitive.black.200}"
   },
   "Light.content.default.default": {
     "$type": "color",
@@ -103,6 +107,22 @@
     "$type": "color",
     "$value": "{color.primitive.mist.blue.300}"
   },
+  "Light.content.brand.default": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.900}"
+  },
+  "Light.content.brand.pressed": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
+  "Light.content.brand.secondary": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.700}"
+  },
+  "Light.content.brand.secondary-pressed": {
+    "$type": "color",
+    "$value": "{color.primitive.mist.blue.800}"
+  },
   "Light.content.positive.default": {
     "$type": "color",
     "$value": "{color.primitive.mist.blue.600}"
@@ -118,6 +138,10 @@
   "Light.content.negative.secondary": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.700}"
+  },
+  "Light.content.negative.inverse": {
+    "$type": "color",
+    "$value": "{color.primitive.rose.clay.600}"
   },
   "Light.border.default.medium": {
     "$type": "color",
@@ -282,5 +306,9 @@
   "radius.full": {
     "$type": "dimension",
     "$value": 999
+  },
+  "border.weight.default": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.01}"
   }
 }
