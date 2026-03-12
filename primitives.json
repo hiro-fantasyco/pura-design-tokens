@@ -215,6 +215,10 @@
     "$type": "color",
     "$value": "#1a1a1a"
   },
+  "color.primitive.black.050": {
+    "$type": "color",
+    "$value": "#0000000d"
+  },
   "color.primitive.black.100": {
     "$type": "color",
     "$value": "#0000001a"

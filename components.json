@@ -1,0 +1,122 @@
+{
+  "component.button.surface-primary-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.300}"
+  },
+  "component.button.surface-secondary-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.200}"
+  },
+  "component.button.label-disabled": {
+    "$type": "color",
+    "$value": "{color.primitive.neutral.500}"
+  },
+  "component.button.surface-ghost-pressed": {
+    "$type": "color",
+    "$value": "{color.primitive.black.050}"
+  },
+  "component.button.height-large": {
+    "$type": "dimension",
+    "$value": 56
+  },
+  "component.button.height-medium": {
+    "$type": "dimension",
+    "$value": 40
+  },
+  "component.button.height-small": {
+    "$type": "dimension",
+    "$value": 32
+  },
+  "component.button.max-width": {
+    "$type": "dimension",
+    "$value": 400
+  },
+  "component.button.min-width": {
+    "$type": "dimension",
+    "$value": 80
+  },
+  "component.icon.size-small": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.05}"
+  },
+  "component.icon.size-medium": {
+    "$type": "dimension",
+    "$value": 20
+  },
+  "component.icon.size-large": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.06}"
+  },
+  "component.icon.size-xlarge": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.07}"
+  },
+  "component.input.text-placeholder": {
+    "$type": "color",
+    "$value": "{Light.content.default.tertiary}"
+  },
+  "component.input.text-value": {
+    "$type": "color",
+    "$value": "{Light.content.default.default}"
+  },
+  "component.input.label": {
+    "$type": "color",
+    "$value": "{Light.content.default.secondary}"
+  },
+  "component.input.hint": {
+    "$type": "color",
+    "$value": "{Light.content.default.default}"
+  },
+  "component.input.hint-negative": {
+    "$type": "color",
+    "$value": "{Light.content.negative.default}"
+  },
+  "component.badge-group.space-between": {
+    "$type": "dimension",
+    "$value": -16
+  },
+  "component.badge-group.border-weight": {
+    "$type": "dimension",
+    "$value": "{unit.primitive.02}"
+  },
+  "component.carousel-indicator.inverse-active": {
+    "$type": "color",
+    "$value": "{Light.content.default.inverse}"
+  },
+  "component.carousel-indicator.inverse-inactive": {
+    "$type": "color",
+    "$value": "{color.primitive.white.500}"
+  },
+  "component.carousel-indicator.default-active": {
+    "$type": "color",
+    "$value": "{Light.content.default.secondary}"
+  },
+  "component.carousel-indicator.default-inactive": {
+    "$type": "color",
+    "$value": "{color.primitive.black.200}"
+  },
+  "component.step-indicator.line-active": {
+    "$type": "color",
+    "$value": "{Light.surface.brand.default}"
+  },
+  "component.step-indicator.line-inactive": {
+    "$type": "color",
+    "$value": "{color.primitive.black.100}"
+  },
+  "component.pura-agent.container-surface": {
+    "$type": "color",
+    "$value": "{color.primitive.white.700}"
+  },
+  "component.pura-agent.container-border": {
+    "$type": "color",
+    "$value": "{color.primitive.white.1000}"
+  },
+  "component.pura-agent.icon-inverse-xs": {
+    "$type": "color",
+    "$value": "{color.primitive.warm.sand.500}"
+  },
+  "component.pura-agent.icon-default-xs": {
+    "$type": "color",
+    "$value": "{Light.ai.default.medium}"
+  }
+}
