@@ -1,0 +1,172 @@
+{
+  "gradient/home.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for home screen background.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "#fbefe300", "position": 0 },
+        { "color": "#fbefe3",   "position": 1 }
+      ]
+    }
+  },
+  "gradient/header.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for header background.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "#fbefe3",   "position": 0 },
+        { "color": "#fbefe300", "position": 1 }
+      ]
+    }
+  },
+  "gradient/footer.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for footer background.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "#fbefe300", "position": 0 },
+        { "color": "#fbefe3",   "position": 0.5 }
+      ]
+    }
+  },
+  "gradient/chat.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for AI chat background.",
+    "$value": {
+      "type": "radial",
+      "stops": [
+        { "color": "#f7dcc9", "position": 0 },
+        { "color": "#fbefe3", "position": 1 }
+      ]
+    }
+  },
+  "gradient/ai.icon.surface": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for AI assistant symbol.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "#dda991", "position": 0.05 },
+        { "color": "#c16c6c", "position": 0.54 }
+      ]
+    }
+  },
+  "gradient/ai-icon-surface-inverse": {
+    "$type": "gradient",
+    "$description": "Inverse gradient for AI assistant symbol.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        { "color": "#dda991", "position": 0.05 },
+        { "color": "#b68b77", "position": 0.54 }
+      ]
+    }
+  },
+  "gradient/ai.callout.bg": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for AI callout background.",
+    "$value": {
+      "type": "linear",
+      "angle": 270,
+      "stops": [
+        { "color": "#fbefe3", "position": 0.2 },
+        { "color": "#fbd7d7", "position": 1 }
+      ]
+    }
+  },
+  "gradient/health.linechart.positive": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for positive health status dataline.",
+    "$value": {
+      "type": "linear",
+      "angle": 189,
+      "stops": [
+        { "color": "#5e88a8", "position": 0 },
+        { "color": "#b3d2ef", "position": 0.22 },
+        { "color": "#e5f1fc", "position": 1 }
+      ]
+    }
+  },
+  "gradient/health.linechart.negative": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for negative health status dataline.",
+    "$value": {
+      "type": "linear",
+      "angle": 188,
+      "stops": [
+        { "color": "#c16c6c", "position": 0 },
+        { "color": "#f7b9b9", "position": 0.13 },
+        { "color": "#fef5f5", "position": 1 }
+      ]
+    }
+  },
+  "gradient/health.linechart.neutral": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for neutral health status dataline.",
+    "$value": {
+      "type": "linear",
+      "angle": 188,
+      "stops": [
+        { "color": "#b68b77", "position": 0 },
+        { "color": "#f7d6c3", "position": 0.13 },
+        { "color": "#fbefe3", "position": 1 }
+      ]
+    }
+  },
+  "gradient/health.linechart.gridline": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for health chart gridlines.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        { "color": "#ffffff99", "position": 0 },
+        { "color": "#e6e6e6",   "position": 0.56 }
+      ]
+    }
+  },
+  "gradient/prescription.track.positive": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for positive prescription track.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        { "color": "#0b3551", "position": 0 },
+        { "color": "#5e88a8", "position": 1 }
+      ]
+    }
+  },
+  "gradient/prescription.track.negative": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for negative prescription track.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        { "color": "#f9c8c8", "position": 0 },
+        { "color": "#7a2929", "position": 1 }
+      ]
+    }
+  },
+  "gradient/prescription.track.neutral": {
+    "$type": "gradient",
+    "$description": "Gradient reserved for neutral prescription track.",
+    "$value": {
+      "type": "linear",
+      "angle": 0,
+      "stops": [
+        { "color": "#f5f5f2", "position": 0 },
+        { "color": "#b68b77", "position": 1 }
+      ]
+    }
+  }
+}
