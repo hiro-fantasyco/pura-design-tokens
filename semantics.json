@@ -187,10 +187,6 @@
     "$type": "color",
     "$value": "{color.primitive.rose.clay.700}"
   },
-  "Light.content.negative.secondary": {
-    "$type": "color",
-    "$value": "{color.primitive.rose.clay.700}"
-  },
   "Light.content.negative.inverse": {
     "$type": "color",
     "$value": "{color.primitive.rose.clay.500}"
