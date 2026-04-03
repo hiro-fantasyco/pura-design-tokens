@@ -145,11 +145,11 @@
   },
   "component.card.padding-small": {
     "$type": "dimension",
-    "$value": "{unit.primitive.05}"
+    "$value": "{spacing.md}"
   },
   "component.card.padding-medium": {
     "$type": "dimension",
-    "$value": "{unit.primitive.06}"
+    "$value": "{spacing.lg}"
   },
   "component.card.radius": {
     "$type": "dimension",
@@ -233,11 +233,11 @@
   },
   "component.sheet.padding-small": {
     "$type": "dimension",
-    "$value": "{unit.primitive.06}"
+    "$value": "{spacing.lg}"
   },
   "component.sheet.padding-medium": {
     "$type": "dimension",
-    "$value": "{unit.primitive.07}"
+    "$value": "{spacing.xl}"
   },
   "component.sheet.radius": {
     "$type": "dimension",
