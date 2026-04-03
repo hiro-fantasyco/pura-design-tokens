@@ -137,11 +137,11 @@
   },
   "component.card.padding-none": {
     "$type": "dimension",
-    "$value": "{unit.primitive.00}"
+    "$value": "{spacing.none}"
   },
   "component.card.padding-xsmall": {
     "$type": "dimension",
-    "$value": "{unit.primitive.04}"
+    "$value": "{spacing.sm}"
   },
   "component.card.padding-small": {
     "$type": "dimension",
@@ -229,7 +229,7 @@
   },
   "component.sheet.padding-none": {
     "$type": "dimension",
-    "$value": "{unit.primitive.00}"
+    "$value": "{spacing.none}"
   },
   "component.sheet.padding-small": {
     "$type": "dimension",
