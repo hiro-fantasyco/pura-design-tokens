@@ -13,6 +13,7 @@
   },
   "effect/card-glass": {
     "$type": "effect",
+    "$description": "Glass card effect combining background blur with a subtle drop shadow.",
     "$value": [
       {
         "type": "backgroundBlur",
@@ -285,6 +286,7 @@
   },
   "gradient/card-surface-glass": {
     "$type": "gradient",
+    "$description": "Glass surface fill for cards. Translucent white fading to transparent.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -296,6 +298,7 @@
   },
   "gradient/card-surface-glass-inverse": {
     "$type": "gradient",
+    "$description": "Inverse glass surface fill for cards. Translucent black fading to transparent.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -307,6 +310,7 @@
   },
   "gradient/card-surface-glass-soft": {
     "$type": "gradient",
+    "$description": "Soft glass surface fill for cards. Translucent white fading to transparent black.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -318,6 +322,7 @@
   },
   "gradient/card-stroke-glass": {
     "$type": "gradient",
+    "$description": "Glass stroke gradient for cards. Translucent white at both ends.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -329,6 +334,7 @@
   },
   "gradient/card-stroke-glass-inverse": {
     "$type": "gradient",
+    "$description": "Inverse glass stroke gradient for cards. Translucent black at both ends.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -340,6 +346,7 @@
   },
   "gradient/card-stroke-glass-soft": {
     "$type": "gradient",
+    "$description": "Soft glass stroke gradient for cards. Semi-opaque white at both ends.",
     "$value": {
       "type": "linear",
       "angle": 135,
@@ -393,6 +400,7 @@
   },
   "blur/soft-fadeup": {
     "$type": "blur",
+    "$description": "Soft uniform blur with progressive fade-up application.",
     "$value": {
       "type": "background",
       "blurType": "uniform",
