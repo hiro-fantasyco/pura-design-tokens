@@ -223,7 +223,9 @@ With optional pressed states: `{name}-pressed`
 
 **Repo:** `hiro-fantasyco/pura-design-tokens`
 
-**Files:**
+These tokens are for a **mobile app** (iOS and Android). The JSON format is optimized for mobile consumption.
+
+**Files (6):**
 
 | File | Contents |
 |---|---|
@@ -231,15 +233,17 @@ With optional pressed states: `{name}-pressed`
 | `semantics.json` | Semantic colors, spacing, radius, border weight |
 | `components.json` | Component-specific tokens |
 | `text-styles.json` | Composite typography tokens |
-| `effects.json` | Shadows, gradients, blurs |
+| `effects.json` | Shadows, gradients, blurs, and other visual effects — this file may grow to include additional effect types in the future |
 | `motion.json` | Easing, duration, delay with platform values |
 
 **JSON format rules:**
 
 - 2-space indentation
+- **Flat structure** — no nesting. Each token is a top-level key with a dot-separated name (e.g. `"component.badge.surface-tint"`). This was chosen as the optimal format for mobile consumption. Strictly follow this pattern.
 - Field order: `$type`, `$description` (if exists), `$value`
 - Only include `$description` if the token has a description in Figma — never fabricate
 - No trailing commas
+- **Order tokens intuitively within each file** — follow natural hierarchy: primary → secondary → tertiary, strong → default → medium → soft → muted → subtle, large → medium → small → xsmall. Keep related tokens grouped together.
 
 **Reference format by token type:**
 
