@@ -218,8 +218,52 @@ strong > default > medium > soft > muted > subtle
 With optional pressed states: `{name}-pressed`
 
 ### Token JSON Sync
-- **Figma is the source of truth.** JSON files reflect Figma state.
-- Files: `primitives.json`, `semantics.json`, `components.json`, `text-styles.json`, `effects.json`
-- Repo: `hiro-fantasyco/pura-design-tokens`
-- Reference format: semantic colors use `{Light.*}` prefix, primitives use `{color.primitive.*}`
-- Don't fabricate descriptions in JSON for tokens that have no description in Figma.
+
+**Figma is the source of truth.** JSON files reflect Figma state, not the other way around.
+
+**Repo:** `hiro-fantasyco/pura-design-tokens`
+
+**Files:**
+
+| File | Contents |
+|---|---|
+| `primitives.json` | Color scales, unit steps, type ramp, font families, weights, sizes, line heights, letter spacing |
+| `semantics.json` | Semantic colors, spacing, radius, border weight |
+| `components.json` | Component-specific tokens |
+| `text-styles.json` | Composite typography tokens |
+| `effects.json` | Shadows, gradients, blurs |
+| `motion.json` | Easing, duration, delay with platform values |
+
+**JSON format rules:**
+
+- 2-space indentation
+- Field order: `$type`, `$description` (if exists), `$value`
+- Only include `$description` if the token has a description in Figma — never fabricate
+- No trailing commas
+
+**Reference format by token type:**
+
+| Type | Format | Example |
+|---|---|---|
+| Semantic colors | `{Light.[group].[name]}` | `{Light.surface.brand.default}` |
+| Color primitives | `{color.primitive.[scale].[step]}` | `{color.primitive.mist.blue.500}` |
+| Unit primitives | `{unit.primitive.[step]}` | `{unit.primitive.05}` |
+| Text primitives | `{text.primitive.[group].[name]}` | `{text.primitive.font.size.font-size-300}` |
+| Spacing | `{spacing.[size]}` | `{spacing.md}` |
+| Radius | `{radius.[size]}` | `{radius.lg}` |
+
+**Naming conventions in JSON:**
+
+| Figma collection | JSON prefix | Example |
+|---|---|---|
+| Color Primitive | `color.primitive.*` | `color.primitive.sage.200` |
+| Color (semantic) | `Light.*` | `Light.surface.tint.soft` |
+| Components | `component.*` | `component.badge.surface-tint` |
+| Text Primitive | `text.primitive.*` | `text.primitive.font.size.font-size-300` |
+| Text (semantic) | `text.*` | `text.label.font-large` |
+| Typography (text styles) | `typography.*` | `typography.label.medium` |
+| Spacing | `spacing.*` | `spacing.md` |
+| Radius | `radius.*` | `radius.lg` |
+| Border Weight | `border.weight.*` | `border.weight.default` |
+| Effects | `shadow/*`, `gradient/*`, `blur/*`, `effect/*` | `gradient/ai.icon.surface` |
+| Motion | `motion.*` | `motion.easing.ease-out` |
