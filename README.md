@@ -13,6 +13,13 @@ Design tokens for the Pura Health mobile app. Source of truth is the Figma Desig
   - [Health status](#health-status)
   - [Digital Twin](#digital-twin)
   - [Feature-scoped](#feature-scoped)
+- [Spacing & Sizing](#spacing--sizing)
+  - [Spacing scale](#spacing-scale)
+  - [Component padding](#component-padding)
+  - [Sizing](#sizing)
+  - [Radius](#radius)
+  - [Border weight](#border-weight)
+- [Typography](#typography)
 - [Reference format](#reference-format)
 - [Docs](#docs)
 
@@ -94,6 +101,112 @@ Primitives are raw values. Semantics assign meaning. Components reference semant
 |---|---|
 | `ai/*` | Reserved for Pura Agent and AI-related surfaces, icons, and UI |
 | `fitcoin/*` | Reserved as theme colors for the Fitcoin feature |
+
+## Spacing & Sizing
+
+### Spacing scale
+
+| Token | Value |
+|---|---|
+| `spacing.none` | 0 |
+| `spacing.xxs` | 2px |
+| `spacing.xs` | 4px |
+| `spacing.sm` | 8px |
+| `spacing.md` | 16px |
+| `spacing.lg` | 24px |
+| `spacing.xl` | 32px |
+| `spacing.xxl` | 40px |
+| `spacing.xxxl` | 48px |
+| `spacing.clearance-bottom` | 50px |
+| `spacing.clearance-top` | 78px |
+
+### Component padding
+
+**Card**
+
+| Token | Value |
+|---|---|
+| `component.card.padding-none` | `spacing.none` (0) |
+| `component.card.padding-xsmall` | `spacing.sm` (8px) |
+| `component.card.padding-small` | `spacing.md` (16px) |
+| `component.card.padding-medium` | `spacing.lg` (24px) |
+
+**Sheet**
+
+| Token | Value |
+|---|---|
+| `component.sheet.padding-none` | `spacing.none` (0) |
+| `component.sheet.padding-small` | `spacing.lg` (24px) |
+| `component.sheet.padding-medium` | `spacing.xl` (32px) |
+
+### Sizing
+
+**Icon**
+
+| Token | Value |
+|---|---|
+| `component.icon.size-xsmall` | 12px |
+| `component.icon.size-small` | 16px |
+| `component.icon.size-medium` | 20px |
+| `component.icon.size-large` | 24px |
+| `component.icon.size-xlarge` | 32px |
+
+**Badge**
+
+| Token | Value |
+|---|---|
+| `component.badge.size-xxxs` | 28px |
+| `component.badge.size-xxs` | 32px |
+| `component.badge.size-xs` | 40px |
+| `component.badge.size-sm` | 48px |
+| `component.badge.size-md` | 80px |
+| `component.badge.size-lg` | 88px |
+| `component.badge.size-xl` | 100px |
+| `component.badge.size-xxl` | 120px |
+
+### Radius
+
+| Token | Value |
+|---|---|
+| `radius.none` | 0 |
+| `radius.xs` | 4px |
+| `radius.sm` | 8px |
+| `radius.md` | 16px |
+| `radius.lg` | 24px |
+| `radius.full` | 999px |
+
+**Card**
+
+| Token | Value |
+|---|---|
+| `component.card.radius` | `radius.md` (16px) |
+
+**Sheet**
+
+| Token | Value |
+|---|---|
+| `component.sheet.radius` | `radius.lg` (24px) |
+
+### Border weight
+
+| Token | Value |
+|---|---|
+| `border.weight.default` | 1px |
+| `border.weight.medium` | 1.5px |
+| `border.weight.strong` | 2px |
+
+## Typography
+
+| Style | Font | Weights | Use for |
+|---|---|---|---|
+| **Display** | Greycliff CF | Medium | Large-scale typographic statements |
+| **Heading** | Greycliff CF | Medium | Section and page headings that establish content hierarchy |
+| **Body** | Noto Sans | Medium, SemiBold | Supporting text, descriptions, and explanations — the **descriptor** |
+| **Label** | Greycliff CF | Medium | Identifiers, labels, and titles of an object — the **identifier** |
+
+Each style is available in sizes: Large, Medium, Small, and xSmall. Display also has xLarge.
+
+**Body vs Label** — When in doubt: if the text **names or identifies** something, use Label. If the text **describes or explains** something, use Body.
 
 ## Reference format
 
