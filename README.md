@@ -19,6 +19,7 @@ Design tokens for the Pura Health mobile app. Source of truth is the Figma Desig
   - [Sizing](#sizing)
   - [Radius](#radius)
   - [Border weight](#border-weight)
+- [Typography](#typography)
 - [Reference format](#reference-format)
 - [Docs](#docs)
 
@@ -193,6 +194,19 @@ Primitives are raw values. Semantics assign meaning. Components reference semant
 | `border.weight.default` | 1px |
 | `border.weight.medium` | 1.5px |
 | `border.weight.strong` | 2px |
+
+## Typography
+
+| Style | Font | Weights | Use for |
+|---|---|---|---|
+| **Display** | Greycliff CF | Medium | Large-scale typographic statements |
+| **Heading** | Greycliff CF | Medium | Section and page headings that establish content hierarchy |
+| **Body** | Noto Sans | Medium, SemiBold | Supporting text, descriptions, and explanations — the **descriptor** |
+| **Label** | Greycliff CF | Medium | Identifiers, labels, and titles of an object — the **identifier** |
+
+Each style is available in sizes: Large, Medium, Small, and xSmall. Display also has xLarge.
+
+**Body vs Label** — When in doubt: if the text **names or identifies** something, use Label. If the text **describes or explains** something, use Body.
 
 ## Reference format
 
